@@ -1,12 +1,12 @@
 {
-    "name": "easy-cpp-projects",
-    "displayName": "Easy C++ projects",
-    "description": "Create C++ projects easily for GCC and WSL-GCC",
-    "version": "1.6.0",
-    "publisher": "ACharLuk",
+    "name": "easy-cpp-projects-cross-compiler",
+    "displayName": "Easy C++ projects with cross compiler",
+    "description": "Acharluk's extension with cross-compiler",
+    "version": "0.0.1",
+    "publisher": "BOJIT",
     "icon": "logo.png",
     "repository": {
-        "url": "https://github.com/acharluk/easy-cpp-projects"
+        "url": "https://github.com/BOJIT/easy-cpp-projects-cross-compiler"
     },
     "engines": {
         "vscode": "^1.26.0"
