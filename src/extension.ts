@@ -39,8 +39,22 @@ export function activate(context: vscode.ExtensionContext) {
     buildAndRunButton.tooltip = 'Build & Run C++ Project (make run) [F7]';
     buildAndRunButton.show();
 
+    let buildXButton = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, 0);
+    buildAndRunButton.command = 'workbench.action.tasks.test';
+    buildAndRunButton.text = '⚙ Build X';
+    buildAndRunButton.tooltip = 'Cross-Compile for Target';
+    buildAndRunButton.show();
+
+    let buildAndRunXButton = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, 0);
+    buildAndRunButton.command = 'workbench.action.tasks.test';
+    buildAndRunButton.text = '▶ Build & Run X';
+    buildAndRunButton.tooltip = 'Cross-Compile and run on Target';
+    buildAndRunButton.show();
+
     context.subscriptions.push(buildButton);
     context.subscriptions.push(buildAndRunButton);
+    context.subscriptions.push(buildXButton);
+    context.subscriptions.push(buildAndRunXButton);
     context.subscriptions.push(createProjectCommand);
     context.subscriptions.push(createClassCommand);
     context.subscriptions.push(createGetterSetterCommand);

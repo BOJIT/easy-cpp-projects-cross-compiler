@@ -24,23 +24,23 @@
         "commands": [
             {
                 "command": "easycpp.createProject",
-                "title": "Easy Cpp/C++: Create new C++ project"
+                "title": "Easy Cpp X/C++: Create new C++ project"
             },
             {
                 "command": "easycpp.createClass",
-                "title": "Easy Cpp/C++: Create new class"
+                "title": "Easy Cpp X/C++: Create new class"
             },
             {
                 "command": "easycpp.createGetterSetter",
-                "title": "Easy Cpp/C++: Create Getter and Setter"
+                "title": "Easy Cpp X/C++: Create Getter and Setter"
             },
             {
                 "command": "easycpp.createGetter",
-                "title": "Easy Cpp/C++: Create Getter"
+                "title": "Easy Cpp X/C++: Create Getter"
             },
             {
                 "command": "easycpp.createSetter",
-                "title": "Easy Cpp/C++: Create Setter"
+                "title": "Easy Cpp X/C++: Create Setter"
             }
         ],
         "keybindings": [
