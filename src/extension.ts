@@ -40,16 +40,16 @@ export function activate(context: vscode.ExtensionContext) {
     buildAndRunButton.show();
 
     let buildXButton = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, 0);
-    buildAndRunButton.command = 'workbench.action.tasks.test';
-    buildAndRunButton.text = '⚙ Build X';
-    buildAndRunButton.tooltip = 'Cross-Compile for Target';
-    buildAndRunButton.show();
+    buildXButton.command = 'workbench.action.tasks.test';
+    buildXButton.text = '⚙ Build X';
+    buildXButton.tooltip = 'Cross-Compile for Target';
+    buildXButton.show();
 
     let buildAndRunXButton = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, 0);
-    buildAndRunButton.command = 'workbench.action.tasks.test';
-    buildAndRunButton.text = '▶ Build & Run X';
-    buildAndRunButton.tooltip = 'Cross-Compile and run on Target';
-    buildAndRunButton.show();
+    buildAndRunXButton.command = 'workbench.action.tasks.test';
+    buildAndRunXButton.text = '▶ Build & Run X';
+    buildAndRunXButton.tooltip = 'Cross-Compile and run on Target';
+    buildAndRunXButton.show();
 
     context.subscriptions.push(buildButton);
     context.subscriptions.push(buildAndRunButton);
