@@ -1,8 +1,8 @@
 [![Version][version-badge]][marketplace]
 [![Installs][installs-badge]][marketplace]
-## Features
-
-## TEST 123
+## This fork is intended for testing out a cross-compiler setup for VSCode
+    - Release is currently not stable!
+    - Initial Testing to be done cross-compiling to AArch64 with Windows Subsystem for Linux
 
 ### Create C++ projects and classes with just few clicks, for MSVC, GCC and Clang
 
